@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif    ; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.back {
+    /* margin: 20px; */
+    background: rgba(220, 186, 186, 0.6);
+    height: 700px;
+    /* margin: -20px; */
+    padding: 1px;
+
+}
+
+nav {
+
+    width: auto;
+    display: block;
+    align-items: center;
+    margin: 25px;
+    font-weight: 200;
+
+}
+
+#logo-text-img {
+    margin-left: -10px;
+    margin-right: 36%;
+}
+
+#logo-img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+}
+
+#logo-text {
+    /* position: relative; */
+    font-size: 35px;
+    /* top: -10px; */
+    padding-top: -10px;
+}
+
+/* .links {
+    list-style-type: none;
+    float: right;
+} */
+
+.links li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li a:hover {
+    color: #fc5d35;
+    /* text-shadow: 0 0 30px #fc5d35, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; */
+}
+
+#getbutton {
+
+    background-color: rgb(255, 81, 0);
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    padding: 15px 21px 11px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+
+.icon {
+    width: 23px;
+    padding-bottom: -10px;
+}
+
+/* #getbutton:hover {
+    background-color: white;
+    border: 2px solid #fc5d35;
+    font-weight: 600;
+    color: #fc5d35;
+
+} */
+
+#section2 {
+    margin-top: 5%;
+}
+
+#section-img {
+    float: right;
+    width: auto;
+    display: inline;
+    padding-right: 20px;
+}
+
+#fruit-heading {
+    font-size: 55pt;
+    padding-left: 20px;
+    margin: 100px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section2 p {
+    padding-left: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+#btns {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#btns button {
+    margin: 10px;
+    padding: 16px 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border-radius: 2px;
+
+}
+
+#non-black {
+    background-color: #fc5d35;
+    border-radius: 2px;
+}
+
+#non-black:hover {
+    border: 2px solid #fc5d35;
+    color: #fc5d35;
+    border-radius: 2px;
+    /* font-size: 18px; */
+}
+
+#black {
+    background-color: black;
+}
+
+#black:hover,
+#non-black:hover {
+    background-color: #ead6d6;
+    cursor: pointer;
+
+}
+
+#black:hover {
+    color: #000;
+    border: 2px solid black;
+}
+
+/* Our section */
+#services {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#services h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#services p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.mainContainer {
+    margin: 40px;
+}
+
+.div-image img {
+    width: auto;
+    height: 100px;
+    margin-bottom: 25px;
+
+}
+
+.div-text {
+    color: #fc5d35;
+    font-size: 25px;
+}
+
+.containerthree,
+.containerfo,
+.containerfi {
+    width: 370px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 10px 10px 12px;
+    display: inline-block;
+}
+
+#services-btn button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 16px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+#services-btn button:hover {
+    cursor: pointer;
+    /* color: black;
+    background-color: white; */
+    /* border: 2px solid black; */
+    /* margin-bottom: 20px;
+    padding: 16px 50px; */
+}
+
+/* Our section End */
+
+/* Fruits section */
+#row1:after,
+#row2:after,
+#row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+#fruits-heading1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#fruits-heading1 h1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#fruits-heading1 p {
+    padding-bottom: 30px;
+}
+
+.fruits-details1 h1,
+.fruits-details2 h1,
+.fruits-details3 h1 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
+
+.fruits-details1 p,
+.fruits-details2 p,
+.fruits-details3 p {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+
+.fruits-details1 button,
+.fruits-details2 button,
+.fruits-details3 button {
+    margin-top: 16px;
+    margin-left: 40px;
+    padding: 14px 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+.fruits-details1 button:hover,
+.fruits-details2 button:hover,
+.fruits-details3 button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.column img {
+    padding-left: 350px;
+}
+
+.fruits-details2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.fruits-details2 h1 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
+
+.img-2 img {
+    margin-left: 100px;
+}
+
+/* Fruits section end */
+
+/* testimonial */
+#testimonial {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.test-1 h1 {
+    font-size: 50px;
+}
+
+.test-1 p {
+    margin: 25px 0;
+}
+
+.test-2 h2 {
+    padding-top: 15px;
+    font-size: 25px;
+
+}
+
+.test-2 img {
+    margin: 30px 0;
+}
+
+.test-2 p {
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 0 5%;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+}
+
+/* testimonial end */
+/* Contact */
+#contact {
+    margin: 50px 0;
+}
+
+#contact img {
+    float: right;
+    width: 250px;
+
+}
+
+.contact-form {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.contact-form h1 {
+    font-size: 45px;
+}
+
+.label-div {
+    width: 60%;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.contact-btn button {
+    color: white;
+    padding: 16px 50px;
+    background-color: #fc5d35;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0;
+
+}
+
+/* contact */
+footer {
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    text-align: left;
+}
+
+table {
+    padding: 20px 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+th {
+    padding: 10px 10px;
+    font-size: 25px;
+
+}
+
+.hvo {
+    cursor: pointer;
+
+}
+
+td {
+    width: 350px;
+    /* margin-left: 20px; */
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+#subscribe {
+    display: inline-block;
+    background-color: #fc5d35;
+    color: white;
+    padding: 14px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.icon-img {
+    margin: 0px 30px 0px 0px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.icon-img:hover {
+    background-color: #fc5d35;
+}
+
+#copy {
+    padding: 10px;
+    background-color: #fc5d35;
+    margin: auto;
+    border-top: 1px solid #fc5d35;
+    color: white;
+}
